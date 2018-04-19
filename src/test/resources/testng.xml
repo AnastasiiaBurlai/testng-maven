@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="AllTests" thread-count="1">
+    <parameter name="parameter_from_xml"  value="I came from testng.xml"/>
+    <test name="allTests">
+        <packages>
+            <package name=".*">
+            </package>
+        </packages>
+    </test>
+</suite>
